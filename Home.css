@@ -1,0 +1,38 @@
+body{
+    font-family:'Raleway',sans-serif;
+    font-weight: 300;
+}
+.nav {
+    background-color:lightseagreen;
+}
+.nav li{
+    display:flex;
+    align-items:baseline;
+}
+.dropdown {
+    display:inline-flex;
+    justify-content: flex-start;
+    /*margin-top:30px;
+    padding-top:20px;
+    font-size:1.8rem;
+    align-items: baseline
+}
+
+/*
+
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+*/
