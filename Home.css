@@ -21,7 +21,7 @@ header a {
     display: inline-flex;
 }
 #myNavbar {
-    overflow: visible;
+    overflow: hidden;
 }
 .nav .dropdown{
     display:inline-flex;
