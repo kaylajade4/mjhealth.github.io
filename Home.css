@@ -47,13 +47,17 @@ header a {
 .nav .dropdown-menu{
     background-color:lightseagreen;
     border-radius:10px;
+    color: #fff;
 }
 .nav ul li {
     text-align: left;
     display: flex;
-    color:white;
-    background-color: lightseagreen;
-    max-width: 100%;
+}
+.nav .dropdown-item{
+    color: white;
+    text-overflow: ellipsis;
+    white-space:normal;
+    overflow:hidden;
 }
 .nav ul li a:hover{
     background-color:lightseagreen;
