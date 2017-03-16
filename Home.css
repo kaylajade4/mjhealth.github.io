@@ -2,39 +2,70 @@ body{
     font-family:'Raleway',sans-serif;
     font-weight: 300;    
 }
-.button {
-    background-color:white;
-}
 
 header {
     margin:10px;
     padding:10px;
-    background-color: lightseagreen;
+    background-color: lightseagreen; 
+    border-radius:10px;
 }
+
+.navbar-header .navbar-toggle .icon-bar{
+    background-color:white;
+}
+
 header a {
     color:#fff;
 }
-
 .nav navbar-nav {
     display: inline-flex;
+}
+#myNavbar {
+    overflow: visible;
 }
 .nav .dropdown{
     display:inline-flex;
     align-items:baseline;
     justify-content: center;
-    vertical-align: baseline;
     border-radius:10px;
+    margin-top: 30px;
 }
+
 .nav .dropdown a:hover{
-    background-color:aquamarine;
-    
+    color:aquamarine;
+    background-color:lightseagreen;
 }
+.nav .dropdown a:active{
+    color:aquamarine;
+    background-color: lightseagreen;
+}
+.nav .dropdown a:focus{
+    color:aquamarine;
+    background-color:lightseagreen;
+}
+
 .nav .dropdown-menu{
     background-color:lightseagreen;
     border-radius:10px;
 }
-
 .nav ul li {
     text-align: left;
-    display: flex;  
+    display: flex;
+}
+.nav ul li a:hover{
+    background-color:lightseagreen;
+    color:aquamarine;
+}
+.navbar-form {
+    margin-top:35px;
+}
+.jumbotron{
+    background-color: white;
+    margin:10px;
+    padding:10px;
+    border-radius:10px;
+    color:lightseagreen;
+}
+.jumbotron p{
+    font-size:14px;
 }
