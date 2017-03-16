@@ -51,8 +51,9 @@ header a {
 .nav ul li {
     text-align: left;
     display: flex;
+    color:white;
     background-color: lightseagreen;
-    max-width: inherit;
+    max-width: 100%;
 }
 .nav ul li a:hover{
     background-color:lightseagreen;
