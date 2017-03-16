@@ -1,38 +1,40 @@
 body{
     font-family:'Raleway',sans-serif;
-    font-weight: 300;
+    font-weight: 300;    
 }
-.nav {
-    background-color:lightseagreen;
+.button {
+    background-color:white;
 }
-.nav li{
-    display:flex;
-    align-items:baseline;
+
+header {
+    margin:10px;
+    padding:10px;
+    background-color: lightseagreen;
 }
-.dropdown {
+header a {
+    color:#fff;
+}
+
+.nav navbar-nav {
+    display: inline-flex;
+}
+.nav .dropdown{
     display:inline-flex;
-    justify-content: flex-start;
-    /*margin-top:30px;
-    padding-top:20px;
-    font-size:1.8rem;
-    align-items: baseline
+    align-items:baseline;
+    justify-content: center;
+    vertical-align: baseline;
+    border-radius:10px;
+}
+.nav .dropdown a:hover{
+    background-color:aquamarine;
+    
+}
+.nav .dropdown-menu{
+    background-color:lightseagreen;
+    border-radius:10px;
 }
 
-/*
-
-
-header h1 {
-  font-weight: 700;
-  margin: 0;
+.nav ul li {
+    text-align: left;
+    display: flex;  
 }
-
-header nav {
-  display: flex;
-  justify-content: flex-end;
-}
-
-header p {
-  padding: 0 20px;
-  margin: 0;
-}
-*/
