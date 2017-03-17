@@ -9,7 +9,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
     </head>
-    
     <body>
         <header class="navbar">
             <div class="container-fluid">
@@ -44,7 +43,7 @@
                                 <li><a class="dropdown-item" href="#">Chronic Obstructive Pulmonary Disease</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Skin, Hair and Nail<span class="caret"></span></a>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Skin, Hair and Nails<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Eczema</a></li>  
                                 <li><a class="dropdown-item" href="#">Dermatitis</a></li>
@@ -59,7 +58,7 @@
                                 <li><a class="dropdown-item" href="#">Warts and Veruccas</a></li> 
                                 </ul>
                         </li>
-                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Eye Conditions<span class="caret"></span></a>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Eye Care<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Dry Eye</a></li> 
                                 <li><a class="dropdown-item" href="#">Allergic Conjunctivitis (Hayfever)</a></li>
@@ -89,7 +88,7 @@
                                 <li><a class="dropdown-item" href="#">Diabetes</a></li>
                             </ul>
                         </li>              
-                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Vitamins and Minerals<span class="caret"></span></a>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Natural<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">1</a></li>     
                                 <li><a class="dropdown-item" href="#">2</a></li>
@@ -118,14 +117,97 @@
             </div>
         </header>
         
-        <section class="jumbotron">
-        <h1>MJ's Health Corner</h1>
+        <section class="jumbotron" id="jumbo">
+           <div class="container" id="carousel-contain">
+                <div class="row">
+    
+                    <div class="col-sm-2">
+                        <h3>Helpful Links:</h3>
+                        <ul>
+                            <li><a href="#">Ministry of Health</a></li>
+                            <li><a href="#">Kids Health</a></li>
+                            <li><a href="#">Patient Information</a></li>
+                            <li><a href="#">Prescription Funding</a></li>
+                            <li><a href="#">Quitline</a></li>
+                            <li><a href="#">Depression Place</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-8 left-col">
+        
+            
+            <!---Carousel Start-->
+            <div id="picslide">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol>                
+                        <div class="carousel-inner" role="listbox">
+                        
+                        <div class="item active">
+                            <img class="img-responsive center-block" src="GI.png">
+                            <div class="carousel-caption">
+                                <h3>Bums and Tums</h3>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img  class="img-responsive center-block" src="GI.png">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive center-block" src="GI.png">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive center-block" src="GI.png">
+                        </div>
+                        </div>
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+            </div>
+            <!---Carousel end -->
+                    
+                </div>
+                    <div class="row">
+    
+                    <div class="col-sm-2">
+                        <form id="Question">
+                            <div class="form-group">
+                                <h3>Ask A Pharmacist</h3>
+                                <label for="question">Question:</label>
+                                <input type="text" class="form-control" id="question">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control">
+                            </div>       
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+            <section>
+        <div class="blurb">
+               <h2>MJ's Health Corner</h2>
             <h4>Providing you with the health information you and your family need</h4>
+            <!---
             <p>As a health consumer, you should have easy access to reliable health information that is easy to understand and interpret, to allow you to make the best health decisions for you and your family.</p>
             <p>This website aims to provide you with an overview of the common conditions experienced in the community, as well as provide you with information about common medicines used to treat these conditions, as well as, appropriate advice.</p>
             <p>All of the information on this website has been written by a local New Zealand pharmacist, ensuring that the information is relevant to the New Zealand community.</p>
-        </section>
-    
+-->
+            </div>
+            </section>
     
     
     </body>

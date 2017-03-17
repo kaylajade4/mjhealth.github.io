@@ -4,8 +4,8 @@ body{
 }
 
 header {
-    margin:10px;
-    padding:10px;
+    margin:5px 10px;
+    padding:0 10px;
     background-color: lightseagreen; 
     border-radius:10px;
 }
@@ -13,7 +13,6 @@ header {
 .navbar-header .navbar-toggle .icon-bar{
     background-color:white;
 }
-
 header a {
     color:#fff;
 }
@@ -59,6 +58,7 @@ header a {
     white-space:normal;
     overflow:hidden;
 }
+
 .nav ul li a:hover{
     background-color:lightseagreen;
     color:aquamarine;
@@ -72,7 +72,58 @@ header a {
     padding:10px;
     border-radius:10px;
     color:lightseagreen;
+    background-color: aliceblue;
 }
-.jumbotron p{
-    font-size:14px;
+.jumbotron ul{
+    list-style: none;
+    text-align: left;
+    text-indent: none;
+    margin: 0;
+    padding: 0;   
 }
+.jumbotron ul li{
+    padding:10px;
+    margin:5px;
+    border-radius:5px;
+}
+.jumbotron ul li a{
+    list-style: none;
+    color:lightseagreen;
+    text-overflow: clip;
+    text-decoration: none;
+}
+
+.jumbotron ul li a:hover{
+    background-color:lightseagreen;
+    color:white;
+    border-radius: 5px;
+    padding: 2px;
+}
+#myCarousel {
+    margin:0;
+    padding:0;
+}
+.carousel-inner{
+    margin: 0;
+    padding: 0;
+}
+.carousel-inner .carousel-caption{
+    background-color:lightseagreen;
+    border-radius:10px;
+    padding: 0;
+    margin:0;
+    background-size: contain;
+}
+
+.blurb{
+    text-align: center;
+    color: #fff;
+    background-color: lightseagreen;
+    margin: 5px 10px;
+    padding: 10px;
+    border-radius:10px;
+}
+.blurb p{
+    text-align: left;
+}
+
